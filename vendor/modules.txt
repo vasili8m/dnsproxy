@@ -52,22 +52,23 @@ github.com/patrickmn/go-cache
 github.com/pmezard/go-difflib/difflib
 # github.com/stretchr/testify v1.6.1
 github.com/stretchr/testify/assert
-# golang.org/x/crypto v0.0.0-20201208171446-5f87f3452ae9
+# golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 golang.org/x/crypto/blake2b
 golang.org/x/crypto/chacha20
 golang.org/x/crypto/chacha20poly1305
 golang.org/x/crypto/cryptobyte
 golang.org/x/crypto/cryptobyte/asn1
 golang.org/x/crypto/curve25519
+golang.org/x/crypto/curve25519/internal/field
 golang.org/x/crypto/ed25519
 golang.org/x/crypto/ed25519/internal/edwards25519
 golang.org/x/crypto/hkdf
+golang.org/x/crypto/internal/poly1305
 golang.org/x/crypto/internal/subtle
 golang.org/x/crypto/nacl/box
 golang.org/x/crypto/nacl/secretbox
-golang.org/x/crypto/poly1305
 golang.org/x/crypto/salsa20/salsa
-# golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
+# golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 golang.org/x/net/bpf
 golang.org/x/net/http/httpguts
 golang.org/x/net/http2
@@ -77,12 +78,12 @@ golang.org/x/net/internal/iana
 golang.org/x/net/internal/socket
 golang.org/x/net/ipv4
 golang.org/x/net/ipv6
-# golang.org/x/sys v0.0.0-20201214095126-aec9a390925b
+# golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
 golang.org/x/sys/cpu
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.3.4
+# golang.org/x/text v0.3.8
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
